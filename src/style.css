@@ -1,1 +1,52 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.contenedor-carta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f5;
+  }
+
+  .carta-poker {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    background-color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .numero-centro {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .simbolo-superior-izquierda,
+  .simbolo-inferior-derecha {
+    font-size: 2rem;
+    position: absolute;
+  }
+
+  .simbolo-superior-izquierda {
+    top: 10px;
+    left: 10px;
+  }
+
+  .simbolo-inferior-derecha {
+    bottom: 10px;
+    right: 10px;
+    transform: rotate(180deg);
+  }
+
+  .picas,
+  .tréboles {
+    color: black;
+  }
+
+  .corazones,
+  .diamantes {
+    color: red;
+  }
